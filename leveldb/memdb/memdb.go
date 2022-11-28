@@ -23,7 +23,7 @@ var (
 	ErrIterReleased = errors.New("leveldb/memdb: iterator released")
 )
 
-const tMaxHeight = 12
+const tMaxHeight = 20480
 
 type dbIter struct {
 	util.BasicReleaser
